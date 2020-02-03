@@ -19,9 +19,9 @@ When(/^I press on Clear button$/) do
 end
 
 When(/^I type "([^"]*)" to target text field$/) do |target|
-  puts('')
+  puts('Target is ' + target)
 end
 
 Then(/^I should see result as "([^"]*)"$/) do |result|
-  pending
+  puts('Result is ' + result)
 end

@@ -10,6 +10,7 @@ Feature: Tests for Home screen functionality
     When I press on Clear button
     Then Show All button should be disabled
 
+  @conversions
   Scenario Outline: Verify default conversion
     Given I land on home screen
     When I type "<target>" to target text field
